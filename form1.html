@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        input{
-            margin: 5px;
+        label:hover{
+            color:aqua;
         }
+        a{
+            text-decoration: underline;
+            text-transform: capitalize;
+            display: inline;
+        }
+        #insetos {background-color: #1a7905;}
+        #repteis {background-color: #e1af09;}
+        .imagem{display: flex; flex-direction: row-reverse; gap: 300px; justify-content: center;}
     </style>
 </head>
 <body>
-    <a href="pratica1.html">home</a>
+    <div class="imagem"><img src="tenor_chief.gif" alt=""></div>
 
+    <div class="principal">
+        <HR></HR>
+
+    <a href="pratica1.html">home</a>
     <h1>formulario de cadrasto de usuario</h1>
     <div class="box">
     <form action="" method="get" name="cad_user">
@@ -50,6 +62,30 @@
                 <td><input type="text" name="" id="mc"></td>
             </tr>
         </table>
+        <HR></HR>
+        <HR></HR>
+        <br>
+        <div id="insetos">
+            <ul>
+                <li>abelha</li>
+                <li>formiga</li>
+                <li>borboleta</li>
+                <li>mosquito</li>
+            </ul>
+        </div>
+        <br>
+        <div id="repteis">
+            <ul>
+                <li>cobra</li>
+                <li>jacaré</li>
+                <li>lagarto</li>
+                <li>tartaruga</li>
+            </ul>
+        </div>
+        <HR></HR>
+        <HR></HR>
+
     </form>
+    </div>
 </body>
 </html>
